@@ -12,7 +12,7 @@ a {
 }
 
 a:visited {
-    color: initial;
+    color: white;
 }
 
 /* -- header-- */
@@ -161,11 +161,12 @@ width: 300px;
 
 /* -- section four -- */
 #four {
+    min-width: auto;
     background-color: #3882F6;
-    margin: 150px 200px;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
+    margin: 80px 150px;
     align-items: center;
     padding: 25px;
 }
@@ -174,11 +175,12 @@ width: 300px;
     margin: 0px;
     font-size: 36px; 
     font-weight: extra-bold;  
-    color: #152937;
+    color: white;
 }
 
 .section-four-text{
     margin: 0px;
+    color: white;
 }
 
 .section-four-btn{
@@ -190,6 +192,7 @@ width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 
